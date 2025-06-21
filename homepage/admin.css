@@ -1,0 +1,63 @@
+/* admin.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  /* background-color:  rgb(205, 224, 237); */
+  margin: 0;
+  padding: 0;
+}
+
+.admin-panel {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-options {
+  background-color: rgb(32, 65, 91);
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.btn {
+  background-color: rgb(205, 224, 237);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(148, 174, 191);
+}
+
+.content-box {
+  padding: 20px;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.back1{
+  background-image: url('city bus-bro.png');
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -2;
+  background-size: 75%;
+  margin-left: 60%;
+  margin-top: 45%;
+  padding-bottom: 30%;
+  padding-left: 40%;
+}
+

@@ -1,0 +1,404 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@400;600&family=Roboto:wght@100;400;500&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+
+body {
+ 
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  font-family: montserrat;
+}
+.p1{
+  color: rgb(68, 104, 131);
+  margin-bottom: 0;
+}
+.p2
+{
+margin-top: 0;
+}
+
+header {
+  background-color: #333;
+  color: rgb(32, 65, 91);
+  padding: 20px 0;
+  opacity: 0.85;
+  
+}
+
+.zitheke{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.container {
+ 
+ max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  color: #000000;
+  padding-right: 70px;
+  padding-bottom: 150px;
+ 
+}
+
+
+.ppn{
+/* flex-shrink: 0;  
+  padding: 20px;
+  */ 
+}
+.car1{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;         
+  max-width: 90%; /* Set the maximum width to 100% of the parent container */
+  max-height: 90vh; /* Set the maximum height to 100% of the viewport height */
+  
+
+}
+
+.cloud {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.7;
+ 
+/*  animation: moveClouds linear infinite; */
+}
+
+.cloud:nth-child(1) {
+  border-radius: 78% 22% 42% 58% / 89% 100% 0% 11% ;
+  width: 100px;
+  height: 60px;
+  top: 5%;
+  left: 10%;
+}
+
+.cloud:nth-child(2) {
+  border-radius: 78% 22% 42% 58% / 89% 53% 47% 11%  ;
+  width: 120px;
+  height: 70px;
+  top: 30%;
+  left: 40%;
+}
+
+.cloud:nth-child(3) {
+  width: 80px;
+  height: 40px;
+  top: 45%;
+  left: 20%;
+ border-radius:0% 100% 42% 58% / 89% 75% 25% 11% ;
+}
+
+.mutu2{
+  font-size: 50px;
+  width: 600px;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  width: 10em;
+}
+
+.navi{
+  padding-left: 900px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(32, 65, 91);
+}
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+nav {
+
+  background-color: rgb(222, 245, 245);
+  padding: 10px 0;
+  opacity: 0.95;
+ 
+}
+nav ul {
+  
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  transition: text-decoration 0.9s;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+  
+}
+nav ul li:hover{
+  transition: 0.3s;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+a {
+  color: rgb(32, 65, 91);
+  text-decoration: none;
+  font-weight: bold;
+}
+.get-started-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(121, 71, 230);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.get-started-button:hover {
+  background-color: rgb(121, 71, 230);
+}
+
+.bar{
+  
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  align-items: center;
+  align-content: center;
+  border: 1px solid black;
+  width: 70rem;
+  margin-left: 100px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  
+
+}
+.ticket{
+  display: block;
+  color: rgb(121, 71, 230);
+  font-size: 100%;
+  width: 270px;
+ margin-left: 3rem;
+ margin-top: 1rem;
+ color:rgb(68, 104, 131);
+
+}
+.ticket_para{
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.heads{
+  margin: 0;
+  color: rgb(5, 147, 255);
+}
+
+.app{
+  position: relative;
+  display: flex;
+  
+  align-items: center;  
+  background-color: rgb(222, 245, 245);
+  margin: 95px;
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-bottom: 65px;
+  border-radius: 15px;
+ 
+}
+.zankati{
+  padding: 0;
+  margin: 0;
+}
+.mutu{
+  width: 40rem;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.image{
+margin: 0;
+margin-left: 800px;
+width: 400px;
+height: 400px;
+}
+.manja{
+  position: absolute;
+  bottom:0 !important;
+  right: 5%;
+
+bottom: 20px;
+}
+
+.playstore{
+  width: 100px;
+}
+.playstor{
+  width: 60px;
+}
+.wawa{
+  padding-left: 15px;
+}
+
+.mutu3 {
+  color: rgb(32, 65, 91);
+  padding-bottom: 40px;
+  
+ text-align: center;
+
+ 
+}
+/* table css*/
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  border-radius: 10px; /* Rounded corners */
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.malog1 {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  width: 30%;
+}
+.malog2 {
+  max-width: 100%;
+  height: auto;
+  width: 40%;
+}
+.malog3 {
+  max-width: 100%;
+  height: auto;
+  width: 35%;
+}
+.malog4 {
+  max-width: 100%;
+  height: auto;
+  width: 40%;
+}
+.malog5 {
+  max-width: 100%;
+  height: auto;
+  width: 40%;
+}
+.malog6 {
+  max-width: 100%;
+  height: auto;
+  width: 40%;
+}
+
+
+/*city css*/
+.grid-container {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  background-color: rgb(218, 236, 236);
+  padding-bottom: 80px;
+}
+
+.city-card {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.city-image {
+  width: 300px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+.the_whole{
+  position: relative;
+  background-color: rgb(222, 245, 245);
+  border-radius: 10% 10% 50% 50% / 0% 0% 10% 10%  ;
+  padding: 1px;
+}
+
+.mutu4{
+  
+ text-align: center;
+}
+
+.convics{
+  background-color: rgb(206, 242, 242);
+  padding: 20px;
+  margin-top: 15%;
+}
+
+.convic {
+  color: rgb(32, 65, 91);
+  margin-bottom: 0;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.text-content {
+  width: 65%; /* Adjusted width for the text container */
+  margin-right: 10px; /* Added margin to separate text and image */
+}
+
+.text-content p {
+  margin-bottom: 20px;
+}
+
+.create-account-btn {
+  margin-top: 20px;
+  background-color: rgb(5, 147, 255);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.image-container {
+  width: 30%; /* Adjusted width for the image container */
+}
+
+.image-container img {
+  width: 90%;
+  border-radius: 5px;
+}
